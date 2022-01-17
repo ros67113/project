@@ -1,0 +1,82 @@
+body{
+background-color:darkgrey;
+
+}
+
+
+.image{
+margin: 40px 60px;
+width: 300px;
+height: 300px;
+border-radius:50%;
+
+
+}
+
+p{
+box-shadow:0 0 10px coral;
+margin: 50px 60px 90px 40px;
+
+}
+.button{
+position: relative;
+
+margin: auto auto;
+}
+a:link{
+    color:rgb(72, 2, 236);
+    background: indigo;
+}
+a{
+    color:deeppink;
+    background-color: lavenderblush;
+}
+a:hover{
+ font-size: 18px;
+ color:cyan !important;
+ background-color:lightsalmon;
+
+}
+a:visited{
+    color:gold;
+    background:magenta;
+}
+p:first-letter{
+    font-size: 50px;
+}
+h1:first-letter{
+color:mediumblue;
+font-size:24px ;
+
+}
+h2::first-letter{
+    color:red;
+    font-size: 43px;
+}
+h3::first-letter{
+color:yellow;
+font-size: 30px;
+}
+
+
+
+
+
+.test::before{
+    content:"pervaja stroka kursivom";
+    font-style: italic;
+}
+
+.test:after{
+    content:"321321sdkakfakaks)))"
+}
+::selection{
+    color:green;
+    background: indigo;
+}
+.test::after{
+content:"dfasad";
+}
+.test:before{
+    content:"dfasad";
+}
